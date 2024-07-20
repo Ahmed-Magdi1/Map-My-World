@@ -1,0 +1,16 @@
+<launch>
+  <!-- Node to run ds4drv -->
+  <node pkg="my_robot" type="run_ds4drv.sh" name="ds4drv" output="screen">
+    <param name="command" value="/bin/bash -c" />
+    <param name="args" value="sudo ds4drv" />
+  </node>
+
+  <!-- Node to run ps4.py -->
+  <node pkg="my_robot" type="ps4.py" name="ps4_controller" output="screen">
+    <param name="command" value="/usr/bin/python3" />
+    <param name="args" value="$(find my_robot)/scripts/ps4.py" />
+  </node>
+
+  <!-- Node to run joy_node -->
+  <node pkg="joy" type="joy_node" name="joy_node" output="screen"/>
+</launch>
