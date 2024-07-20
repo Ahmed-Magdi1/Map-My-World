@@ -72,7 +72,7 @@ simultaneous localization and mapping (SLAM) of a mobile robot.
     </th>
     <th><p>
            <img src="./src/my_robot/images/2D_map.png"
-            alt="2D map" width="200" height="200"></a>
+            alt="2D map" width="400" height="200"></a>
            <br>2D Map
       </p>
     </th>
@@ -86,7 +86,7 @@ simultaneous localization and mapping (SLAM) of a mobile robot.
     </th>
     <th><p>
            <img src="./src/my_robot/images/Map_Localization_Testing_amcl.png"
-            alt="features" width="200" height="200"></a>
+            alt="features" width="400" height="200"></a>
            <br>Localization Testing
       </p>
     </th>
